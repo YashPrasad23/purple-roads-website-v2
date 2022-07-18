@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0; 
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #myVideo {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.content {
+  position: absolute;
+  text-align: center;
+  left: 300px;
+  bottom: 200px;
+  color: #fff;
+}
+
+.sections {
+  position: relative;
+  padding: 10%;
+  /* border: solid 2px black; */
+}
+
+.carousel-inner {
+  box-sizing: content-box;
+}
+
+.nav-btn {
+  color: #000;
+}
+
+#home {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#porfolio {
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.carousel-item {
+  background-color: #3D3C42;
+  color: #fff;
+  padding: 30px;
+}

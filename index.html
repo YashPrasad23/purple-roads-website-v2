@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Purple Roads</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <nav
+          class="navbar navbar-expand-md navbar-dark"
+          style="background-color: #b762c1"
+        >
+          <a
+            href="https://yashprasad23.github.io/purple-roads-website/"
+            class="navbar-brand"
+            >Purple Roads</a
+          >
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#our-services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div id="home">
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+          <source src="images/rain.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+          <h1>Where Dimensions Take Shape</h1>
+          <p>
+            Experential marketing company specialising in exhibition stand
+            design, event technology and event management.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section id="portfolio container-fluid">
+      <div id="portfolio-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/delivery-3-1.png" alt="" class="p-img">
+            <h2>Image 1</h2>
+            <p>lipsum lipsum</p>
+          </div>
+          <div class="carousel-item">
+            <img src="images/delivery-3-2.png" alt="" class="p-img">
+            <h2>Image 2</h2>
+            <p>lipsum lipsum</p>
+          </div>
+          <div class="carousel-item">
+            <img src="images/delivery-3-3.png" alt="" class="p-img">
+            <h2>Image 3</h2>
+            <p>lipsum lipsum</p>
+          </div>
+        </div>
+        <a href="#portfolio-carousel" class="carousel-control-prev nav-btn" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#portfolio-carousel" class="carousel-control-next nav-btn" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <section id="our-services container-fluid">
+      <div class="sections">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          rhoncus, sapien eget egestas porta, metus tellus scelerisque nulla, in
+          eleifend mi felis vitae neque. Nulla mollis est at lacus pellentesque,
+          eget semper nunc efficitur. Duis tempus ligula vel diam scelerisque
+          scelerisque. Nunc accumsan, diam ac aliquam porta, dolor augue feugiat
+          augue, vel interdum sem erat at sapien. Nulla elit nisl, rhoncus nec
+          magna sit amet, malesuada ornare sapien. Pellentesque a quam vel enim
+          consectetur pellentesque quis vel nunc. Sed in tellus maximus, congue
+          mauris non, consectetur elit. Maecenas semper accumsan ex sed luctus.
+          Maecenas quis lobortis arcu. Quisque id nisi ipsum. Nulla venenatis
+          libero metus, ut molestie eros congue sit amet. Aenean arcu mi, rutrum
+          sed arcu ut, feugiat tempus lectus. Ut quis tincidunt libero, nec
+          euismod augue. Ut et eleifend urna. In hac habitasse platea dictumst.
+          Nullam tellus risus, suscipit id fermentum id, gravida in augue. Donec
+          at turpis sem. Vestibulum venenatis, eros rhoncus iaculis tristique,
+          ligula felis sollicitudin sapien, quis tristique eros turpis id odio.
+          Nulla sed lorem vel leo scelerisque ornare.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="sections container-fluid">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          rhoncus, sapien eget egestas porta, metus tellus scelerisque nulla, in
+          eleifend mi felis vitae neque. Nulla mollis est at lacus pellentesque,
+          eget semper nunc efficitur. Duis tempus ligula vel diam scelerisque
+          scelerisque. Nunc accumsan, diam ac aliquam porta, dolor augue feugiat
+          augue, vel interdum sem erat at sapien. Nulla elit nisl, rhoncus nec
+          magna sit amet, malesuada ornare sapien. Pellentesque a quam vel enim
+          consectetur pellentesque quis vel nunc. Sed in tellus maximus, congue
+          mauris non, consectetur elit. Maecenas semper accumsan ex sed luctus.
+          Maecenas quis lobortis arcu. Quisque id nisi ipsum. Nulla venenatis
+          libero metus, ut molestie eros congue sit amet. Aenean arcu mi, rutrum
+          sed arcu ut, feugiat tempus lectus. Ut quis tincidunt libero, nec
+          euismod augue. Ut et eleifend urna. In hac habitasse platea dictumst.
+          Nullam tellus risus, suscipit id fermentum id, gravida in augue. Donec
+          at turpis sem. Vestibulum venenatis, eros rhoncus iaculis tristique,
+          ligula felis sollicitudin sapien, quis tristique eros turpis id odio.
+          Nulla sed lorem vel leo scelerisque ornare.
+        </p>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
